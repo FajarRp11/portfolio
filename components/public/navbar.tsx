@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between bg-secondary/80 backdrop-blur-md rounded-full px-6 py-3 border border-border/50">
           {/* Logo */}
-          <Link href="#" className="font-serif text-xl text-foreground tracking-wide">
+          <Link href="#hero" className="font-serif text-xl text-foreground tracking-wide">
             dev<span className="text-primary">.</span>
           </Link>
 

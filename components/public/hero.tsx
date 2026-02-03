@@ -4,24 +4,15 @@ import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center relative px-6 pt-24">
+    <section className="min-h-screen flex flex-col items-center justify-center relative px-6 pt-24" id="hero">
       <div className="text-center max-w-5xl mx-auto">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-muted-foreground text-sm md:text-base uppercase tracking-[0.2em] mb-6"
-        >
-          Hi, I'm Alex
-        </motion.p>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-[0.95] mb-8"
         >
-          <span className="block text-foreground">Alex Chen</span>
+          <span className="block text-foreground">Fajar Rahyu</span>
           <span className="block italic text-gradient mt-2">Web Developer</span>
         </motion.h1>
 
@@ -54,24 +45,6 @@ const Hero = () => {
           </a>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-12"
-      >
-        <motion.a
-          href="#services"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-        >
-          <span className="text-xs uppercase tracking-widest">Scroll</span>
-          <ArrowDown size={20} />
-        </motion.a>
-      </motion.div>
     </section>
   );
 };
