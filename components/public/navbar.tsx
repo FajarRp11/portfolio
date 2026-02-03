@@ -1,7 +1,9 @@
+"use client"
+
 import { motion } from "framer-motion";
-import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
 const navLinks = [
   { name: "Services", href: "#services" },
