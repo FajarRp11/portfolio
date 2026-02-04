@@ -18,7 +18,7 @@ const skills = [
 ];
 
 const SkillCard = ({ name }: { name: string }) => (
-  <div className="flex-shrink-0 px-6 py-4 bg-card border border-border rounded-full flex items-center gap-3 hover:border-primary/50 transition-colors duration-300">
+  <div className="flex-shrink-0 px-6 py-4 bg-card border border-border flex items-center gap-3 hover:border-primary/50 transition-colors duration-300">
     <span className="text-foreground font-medium whitespace-nowrap">{name}</span>
   </div>
 );
