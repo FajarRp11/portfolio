@@ -36,11 +36,11 @@ const Contact = () => {
           <AnimatedSection delay={0.3}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-muted-foreground">
               <Link
-                href="mailto:fajarrahyu1103@gamil.com"
+                href="mailto:fajarrahyu1103@gmail.com"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
                 <Mail size={18} />
-                fajarrahyu1103@gamil.com
+                fajarrahyu1103@gmail.com
               </Link>
               <span className="flex items-center gap-2">
                 <MapPin size={18} />

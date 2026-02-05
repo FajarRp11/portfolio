@@ -7,8 +7,6 @@
 <p align="center">
   <a href="#features"><strong>Features</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#project-structure"><strong>Project Structure</strong></a>
 </p>
 
 <br/>
