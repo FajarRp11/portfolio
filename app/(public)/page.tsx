@@ -1,3 +1,5 @@
+import Education from "@/components/public/education";
+import Experience from "@/components/public/experience";
 import Hero from "@/components/public/hero";
 import Navbar from "@/components/public/navbar";
 import Projects from "@/components/public/projects";
@@ -13,6 +15,8 @@ const Home = () => {
         <Skills />
         <Services />
         <Projects />
+        <Experience />
+        <Education />
       </main>
     </div>
   );
