@@ -1,3 +1,5 @@
+import About from "@/components/public/about";
+import Contact from "@/components/public/contact";
 import Education from "@/components/public/education";
 import Experience from "@/components/public/experience";
 import Hero from "@/components/public/hero";
@@ -12,11 +14,13 @@ const Home = () => {
       <Navbar />
       <main>
         <Hero />
+        <About />
         <Skills />
         <Services />
         <Projects />
         <Experience />
         <Education />
+        <Contact />
       </main>
     </div>
   );
