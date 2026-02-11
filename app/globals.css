@@ -35,7 +35,7 @@
     --ring: 43 35% 75%;
 
     --radius: 0.5rem;
-    
+
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -43,13 +43,14 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
 
-     /* Custom properties */
+    /* Custom properties */
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
 
-     --gradient-gold: linear-gradient(135deg, hsl(43 35% 75%), hsl(35 40% 65%));
+    --gradient-gold: linear-gradient(135deg, hsl(43 35% 75%), hsl(35 40% 65%));
     --shadow-glow: 0 0 60px -15px hsl(43 35% 75% / 0.15);
   }
+
   .dark {
     /* Light theme dengan warna soft */
     --background: 40 20% 97%;
@@ -102,7 +103,12 @@
     font-family: var(--font-sans);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-serif);
   }
 }
@@ -135,7 +141,7 @@
   }
 
   .section-padding {
-    @apply py-12 md:py-20 lg:py-32;
+    @apply py-16 md:py-20 lg:py-32;
   }
 
   .container-narrow {
@@ -148,4 +154,3 @@
     text-wrap: balance;
   }
 }
-
