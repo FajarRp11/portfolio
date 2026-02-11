@@ -6,7 +6,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section
-      className="min-h-screen flex flex-col items-center justify-center relative px-6 pt-16 overflow-hidden"
+      className="min-h-fit lg:min-h-screen flex flex-col items-center justify-center relative px-6 pt-16 overflow-hidden"
       id="hero"
     >
       {/* Top Glow Effect */}
